@@ -1,0 +1,14 @@
+.product-list-img
+{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row > div[class*='col-'] {
+ display: flex;
+}

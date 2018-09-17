@@ -1,0 +1,24 @@
+
+  
+  <div class="row">
+    <div class="col-sm-10 offset-sm-1">
+      
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1 class="section-heading-upper">Productos Frescos</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-1 col-sm-2 col-md-3 col-lg-4" *ngFor="let product of productos">
+            <div class="card">
+              <div>
+                <img class="product-list-img" src="{{product.imgUrl}}">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">{{product.name}}</h5>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
