@@ -1,0 +1,52 @@
+
+.intro-left, .intro-right {
+    position: relative;
+  }
+  
+  @media (min-width: 992px) {
+    .intro-left .intro-img {
+      width: 75%;
+      float: right;
+    }
+    .intro-left .intro-text {
+      left: 0;
+      width: 60%;
+      margin-top: 3rem;
+      position: absolute;
+    }
+    .intro-left .intro-text .intro-button {
+      width: 100%;
+      left: 0;
+      position: absolute;
+      bottom: -2rem;
+    }
+
+    .intro-right .intro-img {
+        width: 50%;
+        float: left;
+      }
+      .intro-right .intro-text {
+        right: 0;
+        width: 45%;
+        margin-top: 0rem;
+        position: absolute;
+      }
+      .intro-right .intro-text .intro-button {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem;
+      }
+  
+    
+  }
+  
+  @media (min-width: 1200px) {
+    .intro-left .intro-text {
+      width: 45%;
+    }
+
+    .intro-right .intro-text {
+        width: 45%;
+      }
+  }

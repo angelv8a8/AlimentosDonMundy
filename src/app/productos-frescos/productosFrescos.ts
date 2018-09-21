@@ -1,9 +1,9 @@
 import { Producto } from '../producto';
 
-let base: string = "assets/img/vegetales/1x/";
+let base: string = "assets/img/vegetales/";
 
 export const PRODUCTOS_FRESCOS: Producto[] = [
-  {  name: 'Apio' , imgUrl:  base + 'apio-stick.png',},
+/*  {  name: 'Apio' , imgUrl:  base + 'apio-stick.png',},
   {  name: 'Arugula' , imgUrl: base + 'arugula-lavada.png'},
   {  name: 'Cebolla' , imgUrl: base + 'cebolla-granel.png'},
   {  name: 'Chile Pimiento' , imgUrl: base + 'pimiento-partido.png'},
@@ -23,5 +23,26 @@ export const PRODUCTOS_FRESCOS: Producto[] = [
   {  name: 'Zanahoria' , imgUrl: base + 'zanahoria-stick.png'},
   {  name: 'Hierbabuena' , imgUrl: base + 'hierbabuena-lavada.png'},
   {  name: 'Chile Jalapeño' , imgUrl: base + 'jalapenio-lavado.png'},
-  {  name: 'Mix de Verduras' , imgUrl: base + 'mix-verduras.png'},
+  {  name: 'Mix de Verduras' , imgUrl: base + 'mix-verduras.png'},*/
+  {  name: 'Apio' , imgUrl:  base + 'apio.png',},
+  {  name: 'Arugula' , imgUrl: base + 'arugula.png'},
+  {  name: 'Cebolla' , imgUrl: base + 'cebolla.png'},
+  {  name: 'Chile Pimiento' , imgUrl: base + 'pimiento.png'},
+  {  name: 'Fresas' , imgUrl: base + 'fresas.png'},
+  {  name: 'Cilantro' , imgUrl: base + 'cilantro.png'},
+  {  name: 'Ensaladas' , imgUrl: base + 'ensalada.png'},
+  {  name: 'Espinaca' , imgUrl: base + 'espinaca.png'},
+  {  name: 'Lechuga Iceberg' , imgUrl: base + 'iceberg.png'},
+  {  name: 'Escarola Morada' , imgUrl: base + 'escarola-verde.png'},
+  {  name: 'Escarola Verde' , imgUrl: base + 'escarola-morada.png'},
+  {  name: 'Romana' , imgUrl: base + 'romana.png'},
+  {  name: 'Perejil' , imgUrl: base + 'perejil.png'},
+  {  name: 'Puerro' , imgUrl: base + 'puerro.png'},
+  {  name: 'Tomate Manzano' , imgUrl: base + 'tomate-manzano.png'},
+  {  name: 'Tomate Cocina' , imgUrl: base + 'tomate-cocina.png'},
+  {  name: 'Yuca' , imgUrl: base + 'yuca.png'},
+  {  name: 'Zanahoria' , imgUrl: base + 'zanahoria.png'},
+  {  name: 'Hierbabuena' , imgUrl: base + 'hierbabuena.png'},
+  {  name: 'Chile Jalapeño' , imgUrl: base + 'jalapenio.png'},
+  {  name: 'Mix de Verduras' , imgUrl: base + 'mixverduras.png'},
 ];

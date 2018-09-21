@@ -1,3 +1,28 @@
-<p>
-  productos-donmundy works!
-</p>
+
+<div class="row">
+  <div class="col-xs-12 offset-xs-0 col-md-10 offset-md-1">
+    
+    <div id="my-carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#my-carousel" data-slide-to="0" *ngFor="let product of productos; let index = index" [class.active]="index == 0" ></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item" *ngFor="let product of productos;let index = index" [class.active]="index == 0">
+          <img class="d-block w-100" src="{{product.imgUrl}}">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>{{product.name}}</h5>
+              <p>{{product.type}}</p>
+            </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#my-carousel" role="button" data-slide="prev">
+          <span class="donmundy-control-prev"><i class="fas fa-angle-left"></i></span>   
+        <span class="sr-only">Previo</span>
+      </a>
+      <a class="carousel-control-next" href="#my-carousel" role="button" data-slide="next">
+          <span class="donmundy-control-prev"><i class="fas fa-angle-right"></i></span>   
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+  </div>
+</div>

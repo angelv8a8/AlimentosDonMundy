@@ -1,0 +1,28 @@
+p 
+{
+    font-family: 'Lora';
+    
+}
+
+a
+{
+    text-decoration: none;
+}
+
+li
+{
+    list-style: none;
+}
+li
+{
+    font-size: 2rem;
+}
+
+li a
+{
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Raleway';
+    color: inherit;
+    margin-left: 15px;
+}
