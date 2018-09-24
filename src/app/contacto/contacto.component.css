@@ -15,14 +15,44 @@ li
 }
 li
 {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 li a
 {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: 'Raleway';
     color: inherit;
     margin-left: 15px;
+}
+
+@media (min-width: 564px)
+{
+    li
+    {
+        font-size: 1.5rem;
+    }
+
+    li a
+    {
+        font-size: 1.5rem;
+    }
+    
+}
+
+ul
+{
+    padding-left: 0px;
+}
+
+li
+{
+    border-bottom: 1px dotted gray;
+    padding: 1rem;
+}
+
+p
+{
+    font-family: 'Raleway';
 }

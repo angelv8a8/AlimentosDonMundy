@@ -1,3 +1,16 @@
+.section-heading-lower-small
+{
+  font-size: 0.75rem;
+}
+
+@media (min-width: 564px) {
+  .section-heading-lower-small
+  {
+    font-size: 1.5rem;
+  }   
+}
+
+
 @media (min-width: 992px) {
     .about-heading .about-heading-img {
       position: relative;
@@ -8,10 +21,17 @@
       position: relative;
       z-index: 1;
     }
-  }
+}
   
+
 
 p 
 {
   text-align: justify;
 }
+
+img
+{
+  width: 100%;
+}
+

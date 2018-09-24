@@ -1,8 +1,38 @@
+.valores-title
+{
+  width:100%;
+}
 
 .intro-left, .intro-right {
     position: relative;
   }
+
+
+.brand-image
+{
+  width:95%;
   
+}
+
+.brand-title
+{
+  font-weight: bold;
+  
+}
+
+.brand-image:hover
+{
+  width:100%;
+  
+}
+
+  @media (min-width: 564px) {
+
+  .cta .cta-inner {
+    padding: 3rem;
+  }
+  }
+
   @media (min-width: 992px) {
     .intro-left .intro-img {
       width: 75%;

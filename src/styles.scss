@@ -14,8 +14,18 @@ body
 {
     font-family: 'Lora';
     margin: 0px;
+    background: linear-gradient(rgba(15, 47, 15, 0.2), rgba(15, 47, 29, 0.4)), url(assets/img/bg.jpg);
+    background-attachment: fixed;
+    background-position: 0px 0px;
+    /*background-size: cover;*/
+    background-size: auto 900px;
 }
 
+.container-fluid
+{
+  padding:0px;
+  overflow: hidden;
+}
 
 h1,
 h2,
@@ -32,10 +42,7 @@ p {
 
 
 
-.main_logo
-{
-  height:250px;
-}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.3);
 }
@@ -85,16 +92,17 @@ p {
 
 
 .cta {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /*background-color: rgba(230, 167, 86, 0.9);*/
 }
 
 .cta .cta-inner {
   position: relative;
-  padding: 3rem;
+  padding: 1rem;
   margin: 0.5rem;
   background-color: rgba(255, 255, 255, 0.85);
+
 }
 
 .cta .cta-inner:before {
@@ -105,7 +113,7 @@ p {
   bottom: -0.5rem;
   left: -0.5rem;
   right: -0.5rem;
-  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+  
 }
 
 
@@ -146,8 +154,24 @@ p {
 
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: 100;
+}
+
+
+@media (min-width: 720px )
+  {
+    .site-heading .section-heading-lower {
+      font-size: 5rem;
+    }
+  }
+  
+@media (min-width: 540px)
+{
+
+  .section-heading .section-heading-lower {
+    font-size: 3rem;
+  }
 }
 
 
