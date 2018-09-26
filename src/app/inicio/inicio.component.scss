@@ -10,7 +10,9 @@
 
 .brand-image
 {
-  width:95%;
+  margin: 15px;
+  max-height: 80px;
+  max-width: 100%;
   
 }
 
@@ -22,8 +24,6 @@
 
 .brand-image:hover
 {
-  width:100%;
-  
 }
 
   @media (min-width: 564px) {

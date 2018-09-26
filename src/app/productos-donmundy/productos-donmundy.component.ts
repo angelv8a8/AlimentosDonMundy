@@ -15,8 +15,11 @@ export class ProductosDonmundyComponent implements OnInit {
     {name:'Jalapeño en escabeche', type: 'Bolsa doypack con zipper', imgUrl:this.base + 'jalapenio_bolsa.png'},
     {name:'Cebollitas en vinagre', type: 'Bolsa doypack con zipper', imgUrl:this.base + 'cebollitas_vinagre.png'},
     {name:'Ensalada de verduras', type: 'Bolsa doypack con zipper', imgUrl:this.base + 'ensalada_verduras.png'},
+    {name:'Guacamole', type: 'Bolsa doypack con valvula', imgUrl:this.base + 'guacamole.jpg'},
     {name:'Chile habanero', type: 'Frasco de vidrio', imgUrl:this.base + 'chile_habanero.png'},
-    
+    {name:'Salsa barbacoa', type: 'Bolsa doypack con valvula', imgUrl:this.base + 'barbacoa.jpg'},
+    {name:'Salsa Teriyaki', type: 'Bolsa doypack con valvula', imgUrl:this.base + 'teriyaki.jpg'},
+    {name:'Salsa Bufalo', type: 'Bolsa doypack con valvula', imgUrl:this.base + 'bufalo.jpg'},
   ];
 
   constructor() { }

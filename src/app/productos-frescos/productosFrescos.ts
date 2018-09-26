@@ -45,4 +45,7 @@ export const PRODUCTOS_FRESCOS: Producto[] = [
   {  name: 'Hierbabuena' , imgUrl: base + 'hierbabuena.png'},
   {  name: 'Chile Jalapeño' , imgUrl: base + 'jalapenio.png'},
   {  name: 'Mix de Verduras' , imgUrl: base + 'mixverduras.png'},
+  {  name: 'Ensalada Fiesta' , imgUrl: base + 'ensalada-fiesta.jpg'},
+  {  name: 'Ensalada Premium' , imgUrl: base + 'ensalada-premium.jpg'},
+  {  name: 'Espinaca' , imgUrl: base + 'espinaca.jpg'},
 ];
